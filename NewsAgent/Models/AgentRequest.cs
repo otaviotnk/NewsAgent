@@ -1,6 +1,5 @@
 ﻿namespace NewsAgent.Models
 {
-    public class AgentRequest
-    {
-    }
+    public record AgentRequest(string Question);
+    public record AgentResponse(string Question, string Answer);
 }
